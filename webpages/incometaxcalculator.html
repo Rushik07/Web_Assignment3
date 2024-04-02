@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>Income Tax Calculator</title>
+</head>
+
+<body>
+    <div id="first-main-element">
+        <header>
+            <h1>Income Tax Calculator</h1>
+        </header>
+        <nav>
+        </nav>
+        <main>
+            <div id="incometax">
+                <form method="GET" id="incometax">
+                    <div class="form-sections">
+                        <label>Enter Taxable Income:</label>
+                        <input type="number" name="userIncome" id="userIncome" placeholder="Enter Income" required>
+                    </div>
+                    <div class="button">
+                        <input type="submit" name="submit" id="submit" value="Calculate">
+                    </div>
+                    <div class="form-sections">
+                        <label>Income tax owed:</label>
+                        <input type="text" name="taxtobepaid" id="taxtobepaid" disabled>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; Rushik Deepak Patel - n01649275</p>
+        </footer>
+    </div>
+    <script src="../js/incometaxCalc.js"></script>
+</body>
+
+</html>

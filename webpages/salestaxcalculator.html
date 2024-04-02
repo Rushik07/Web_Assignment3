@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>Sales Tax Calculator</title>
+</head>
+<body>
+    <div id="first-main-element">
+        <header>
+            <h1>Sales Tax Calculator</h1>
+        </header>
+        <nav>
+    
+        </nav>
+        <main>
+            <div id="salestax">
+               <p>Enter Subtotal and Tax Rate and click 'Calculate'</p>
+                <form method="GET" id="salestax-form">
+                    <div class="form-sections">
+                        <label>Subtotal:</label>
+                        <input type="text" name="taxIncome" id="taxIncome" placeholder="Enter Subtotal value" required>
+                    </div>
+
+                    <div class="form-sections">
+                        <label>Tax Rate:</label>
+                        <input type="text" name="taxrate" id="taxrate" placeholder="Enter Tax Rate" required>
+                    </div>
+
+                    <div class="form-sections">
+                        <label>Sales Tax:</label>
+                        <input type="text" name="usersaletax" id="usersaletax"  disabled>
+                    </div>
+
+                    <div class="form-sections">
+                        <label>Total:</label>
+                        <input type="text" name="total" id="total" disabled >
+                    </div>
+
+                    <div class="button">
+                        <input type="submit" name="submit" id="submit" value="Calculate">
+                    </div>
+
+                    <div class="button">
+                        <input type="reset" name="clear" id="clear" value="Clear">
+                    </div>
+                    
+                </form>    
+                
+            </div>
+        </main>
+        <footer>
+            <p>&copy; Rushik Deepak Patel - n01649275</p>
+        </footer>
+    </div>
+    <script src="../js/salestaxCalc.js"></script>
+</body>
+</html>

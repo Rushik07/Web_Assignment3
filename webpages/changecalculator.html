@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>Change Calculator</title>
+</head>
+<body>
+    <div id="first-main-element">
+        <header>
+            <h1>Change Calculator</h1>
+        </header>
+        <nav>
+    
+        </nav>
+        <main>
+            <div id="change">
+                <form method="GET" id="change-form">
+                    <div class="form-sections">
+                        <label>Enter amount of change due (0-99):</label>
+                        <input type="number" name="amount" id="amount" placeholder="Enter change amount" required>
+                    </div>
+
+                    <div class="button">
+                        <input type="submit" name="submit" id="submit" value="Calculate">
+                    </div>
+
+                    <div class="form-sections">
+                        <label>Quarters:</label>
+                        <input type="text" name="quarters" id="quarters"  disabled>
+                    </div>
+
+                    <div class="form-sections">
+                        <label>Dimes:</label>
+                        <input type="text" name="dimes" id="dimes"  disabled>
+                    </div>
+
+                    <div class="form-sections">
+                        <label>Nickels:</label>
+                        <input type="text" name="nickels" id="nickels" disabled >
+                    </div>
+
+                    <div class="form-sections">
+                        <label>Pennies:</label>
+                        <input type="text" name="pennies" id="pennies" disabled >
+                    </div>
+                </form>    
+            </div>
+        </main>
+        <footer>
+            <p>&copy; Rushik Deepak Patel - n01649275</p>
+        </footer>
+    </div>
+    <script src="../js/changeCalc.js"></script>
+</body>
+</html>
